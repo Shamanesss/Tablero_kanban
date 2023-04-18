@@ -1,14 +1,10 @@
 <template>
-  
   <TableroComp />
 </template>
 
 <script setup>
-import TableroComp from '@/components/TableroComp.vue'
-
-
+import TableroComp from "@/components/TableroComp.vue";
 </script>
-
 
 <style>
 #app {
@@ -17,6 +13,9 @@ import TableroComp from '@/components/TableroComp.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  background-image: url("./assets/wall.jpg");
+  margin: 0;
 }
 </style>
